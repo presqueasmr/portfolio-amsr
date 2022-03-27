@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <title>Portfolio Auriane-Mirana SICARD-RAZAKA</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="work"><a href='work.html'>WORK</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li class="skills"><a href="#sect4">SKILLS</a></li>
+            </ul>
+        </nav>
+
+        <div class="titre_pres">
+            <h1>HI ! I'M <img src="assets/AURIANE-Mirana.svg" alt="Auriane-Mirana"></h1>
+            <h2>STUDENT : WEB DEVELOPMENT -<span> WEB DESIGN </span>- ILLUSTRATIONS</h2>
+        </div>
+
+        <div class="description">
+            
+            <div class="contacts1">
+                <p><span>Bonjour ! Je m’appelle</span> Auriane-Mirana Sicard-Razaka. <span>sur  la voie du succes entre</span> Bordeaux <span> et </span>Lyon.</p>
+            </div>
+            <div class="contacts2">
+                <a href="https://www.behance.net/aurianesicard" target="_blank">
+                <img class="behance" src="assets/behance.png" alt="logo behance" width="45 px"> 
+                </a>
+                <a href="https://www.linkedin.com/in/auriane-mirana-sicard-razaka-8a925a175/" target="_blank">
+                <img class="linkedin" src="assets/linkedin blanc.svg" alt="logo LinkedIn" width="45 px">
+                </a>
+                <input type="text" value="auriane1103@gmail.com" id="myInput">
+                <button onclick="clickEmail()">COPY MY E-MAIL</button>
+                <script>
+                    function clickEmail() {
+                        var copyMail = document.getElementById("myInput");
+                        copyMail.select();
+                        copyMail.setSelectionRange(0, 99999);
+                        navigator.clipboard.writeText(copyMail.value);
+                        alert("Copied the text : " + copyMail.value);
+                    } 
+                </script>
+            </div>
+        </div>
+        <img class="seemyworkimg" src="assets/Line 3.svg" alt="ligne">
+        <a href="#sect1">
+            <p class="seemywork">SEE MY WORK</p>
+        </a>
+    </header>
+
+    <main id="sect1">
+        <section class="sect1">
+            <div class="galerie">
+                <img class="s img1" src="assets/illu/IMG_0359.jpg">
+                <img class="s img2" src="assets/illu/IMG_0437.jpg">
+                <img class="s img3" src="assets/illu/IMG_0235.jpg">
+                <img class="s img4" src="assets/illu/IMG_0137.jpg">
+                <img class="l img5" src="assets/SVG/illu_motion_design.svg">
+                <img class="l img6" src="assets/unlocked/copacabana.svg">
+                <img class="s img7" src="assets/unlocked/mere-fille2.svg">
+                <img class="m img9" src="assets/illu/pommes.svg">
+                <div class="illustrations">
+                    <p class="illu1">ILLUSTRATIONS</p>
+                    <p class="illu2">ILLUSTRATIONS</p>
+                    <p class="illu3">ILLUSTRATIONS</p>
+                    <p class="illu4">ILLUSTRATIONS</p>
+                </div>
+                <!-- <input type="button" value="Voir plus de creations">  -->
+            </div>
+            <div class="galeriebis">
+                <a class="effect effect-1 illu" href="work.html" title="Learn More">Plus de Projets</a>
+            </div>
+        </section>
+
+        <h2>Refonte de site<span> - HTML SCSS Bootstrap</br>11/2021</span></h2>
+        <section class="sect2">
+            <div class="cadres">
+                <a href="https://mmi-1a-cinema-le-festival.netlify.app/index.html" title="lien vers le site">
+                    <img src="assets/cinema_lefestival.png" alt="projet cinema le festival" class="developpement_L">
+                    <img src="assets/cinema_lefestival_mobile.png" alt="projet cinema le festival  version mobile" class="developpement_S">
+                </a>
+            </div>
+            <div class="dev_txt">
+                <p class="dev1">DEVELOPMENT</p>
+                <p class="dev2">DEVELOPMENT</p>
+                <p class="dev3">DEVELOPMENT</p>
+                <p class="dev4">DEVELOPMENT</p>
+            </div>
+            <a class="effect effect-1 webdev" href="work.html" title="Learn More">Plus de Projets</a>
+        </section>
+
+        <h2>Charte graphique Blog<span> - Figma</br>02/2022</span></h2>
+        <section class="sect3">
+            <div class="webdesign_frames">
+                <img src="assets/auBordDesRues_charte.png" alt="charte graphique de Au Bord des Rues" class="webdesign_frame1">
+                
+                <img src="assets/auBordDesRues_charte_2.png" alt="couleurs charte graphique de Au Bord des Rues" class="webdesign_frame2">
+                </div>
+            </div>
+            <div class="wb_text">
+                <p class="wb1">WEBDESIGN</p>
+                <p class="wb2">WEBDESIGN</p>
+                <p class="wb3">WEBDESIGN</p>
+                <p class="wb4">WEBDESIGN</p>
+            </div>
+            <a class="effect effect-1 wd" href="work.html" title="Learn More">Plus de Projets</a>
+        </section>
+        <section id="sect4" class="SKILLS">
+            <h2 class="st">SKILLS</h2>
+            <h2 class="nd">SKILLS</h2>
+            <div>
+                <h3 class="tech">TECH</h3>
+                <div class="stat">
+                    <img src="assets/skills/stat html.svg" alt="skill html niveau 4/5">
+                    <p>html</p>
+                </div>
+                <div class="stat">
+                    <img src="assets/skills/stat css.svg" alt="skill css niveau 3/5">
+                    <p>css/scss</p>
+                </div>
+                <div class="stat">
+                    <img src="assets/skills/stat php.svg" alt="skill php niveau 2/5">
+                    <p>php/mysql</p>
+                </div>
+
+            </div>
+            <div>
+                <h3>TOOLS</h3>
+                <img class="TOOLS" src="assets/skills/TOOLS LIST.svg" alt="tools">
+            </div>
+            <div>
+                <h3>HUMAN</h3>
+                <div class="stat">
+                    <img src="assets/skills/relationel.svg" alt="skill relationnel niveau 4/5">
+                    <p>relationnel</p>
+                </div>
+                <div class="stat">
+                <img src="assets/skills/anglais.svg" alt="skill anglais 5/5">
+                <p>anglais</p>
+            </div>
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <h2>Je cherche un stage !</h2>
+        <p class="footer_desc">J’espère que je vous ai convaincu, N’hésitez pas à me 
+            contacter, <br>ça me ferait rudement 
+            plaisir :) A BIENTôT !</p>
+        <div class="contactsFooter">
+            <a href="https://www.behance.net/aurianesicard" target="_blank">
+                <img class="behance"  src="assets/behance.png" alt="logo behance" width="50 px"> 
+            </a>
+            <a href="https://www.linkedin.com/in/auriane-mirana-sicard-razaka-8a925a175/" target="_blank">
+                <img class="linkedin" src="assets/linkedin blanc.svg" alt="logo LinkedIn" width="50 px" height="50px">
+            </a>
+            <input type="text" value="auriane1103@gmail.com" id="myInput">
+            <button onclick="myFunction()">COPY MY E-MAIL</button>
+        </div>
+        <p class="copyright">@ 2022 - Copyright Auriane-Mirana SICARD-RAZAKA Portfolio</p>
+
+    </footer>
+</body>
+</html>

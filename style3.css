@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #03041a ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Akira Expanded';
+
+}
+
+nav{
+    align-self: flex-start;
+}
+
+
+ul{
+    color: rgb(247, 247, 247);
+    font-size: 10px;
+    padding: 50px;
+    padding-top: 66px;
+    list-style: none;
+    letter-spacing: 3px;
+    
+}
+
+a{
+    margin : 0 50px;
+    text-decoration: none;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+	
+a:hover{
+    color: #501ba5;
+}
+
+a:active{
+    color: #7D0C0C;
+}
+
+p{
+    font-family: 'Akira Expanded';
+    color: rgb(247, 247, 247);
+}
+
+img{
+    margin: 100px 0 100px 0;
+    width: 65%;
+}
