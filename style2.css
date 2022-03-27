@@ -52,4 +52,16 @@ h2{
     margin-bottom: 20px;
 }
 
+p{
+    font-family: 'Roboto Mono', monospace;
+}
 
+.projet{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    border: #7D0C0C solid 2px;
+    width: 350px;
+}
