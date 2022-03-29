@@ -646,5 +646,7 @@ footer .behance{
 footer .copyright{
     text-align: center;
     font-family: 'Roboto Mono';
+    margin-top: 50px;
+    padding-bottom: 10px;
 }
 

@@ -6,6 +6,9 @@
     font-family: 'Akira Expanded';
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 nav{
     align-self: flex-start;
@@ -101,4 +104,11 @@ legend{
 iframe{
     border: #7D0C0C solid 4px;
 
+}
+
+
+#to_the_top{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
