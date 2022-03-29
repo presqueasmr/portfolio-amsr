@@ -21,6 +21,7 @@ ul{
     list-style: none;
     letter-spacing: 3px;
     font-size: 10px;
+    display: flex;
 }
 
 a{
@@ -44,11 +45,12 @@ h1{
 }
 
 section{
-    margin: 100px;
+    margin: 80px;
 }
 
 h2{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 p{
@@ -62,20 +64,41 @@ p{
 }
 
 img{
-    border: #7D0C0C solid 2px;
+    border: #7D0C0C solid 4px;
     width: 650px;
 
 }
 
 .img{
-    width: 650px;
+    width: 35%;
 
 }
 
 .description{
-    width: 650px;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 50px;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.description :nth-child(3){
+    margin-top: 40px;
+}
+
+.description a{
+    justify-items: center;
+    text-align: center;
+}
+
+legend{
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+iframe{
+    border: #7D0C0C solid 4px;
+
 }

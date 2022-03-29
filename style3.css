@@ -24,7 +24,7 @@ ul{
     padding-top: 66px;
     list-style: none;
     letter-spacing: 3px;
-    
+    display: flex;
 }
 
 a{
