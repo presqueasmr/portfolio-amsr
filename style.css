@@ -5,17 +5,14 @@
 }
 
 @font-face{
-    font-family: 'Akira';
-    src: url('fonts/Akira\ Expanded\ Demo.otf') format('otf');
+    font-family: 'Akira Expanded';
+    src: url('fonts/Akira-Expanded-Demo.ttf') format('truetype');
 }
 @font-face{
     font-family: 'Akira Outline';
     src: url('fonts/akira-expanded-outline.ttf') format('truetype');
 }
-@font-face{
-    font-family: 'Blacklisted';
-    src: url('fonts/Blacklisted.ttf') format('truetype');
-}
+
 
 html{
     scroll-behavior: smooth;
@@ -41,7 +38,7 @@ ul{
 
 
 h1{
-    font-size: 40px;
+    font-size: 48px;
     letter-spacing: 7px;
     display: inline;
 }
@@ -160,7 +157,7 @@ li:hover::after {
     padding: 15px 30px;
     color: rgb(247, 247, 247);
     font-size: 13px;
-    font-family: 'Blacklisted';
+    font-family: 'Roboto Mono', monospace;
     transition: 0.25s;
 }
 
@@ -198,7 +195,7 @@ footer button:hover, footer button:focus{
     padding: 15px 30px;
     color: rgb(247, 247, 247);
     font-size: 13px;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -359,7 +356,7 @@ main{
     padding: 25px 0; 
     width:100%;
     overflow: hidden;
-    font-family: 'Blacklisted';
+    font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     border: 2px solid red;
     
@@ -402,10 +399,10 @@ main h2 span{
     text-decoration: none;
     color: rgb(247, 247, 247);
     text-transform: capitalize;
-    padding: 25px 0; 
+    padding: 20px 0; 
     width:25%;
     overflow: hidden;
-    font-family: 'Blacklisted';
+    font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     border: 2px solid red;
 }
@@ -621,7 +618,7 @@ footer{
 }
 
 footer h2{
-    font-family: 'Blacklisted';
+    font-family: 'Roboto Mono', monospace;
     margin-bottom: 30px;
 }
 
@@ -629,7 +626,7 @@ footer h2{
 footer .footer_desc{
     margin-bottom: 30px;
     font-size: 17px;
-    font-family: 'Roboto mono', sans-serif;
+    font-family: 'Roboto mono', monospace;
 }
 
 .contactsFooter{
@@ -645,7 +642,7 @@ footer .behance{
 
 footer .copyright{
     text-align: center;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
     margin-top: 50px;
     padding-bottom: 10px;
 }
