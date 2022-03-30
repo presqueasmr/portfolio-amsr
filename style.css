@@ -219,6 +219,7 @@ footer button:hover, footer button:focus{
 
 main{
     background-color: #03041a;
+    padding-bottom: 50px;
 }
 .galerie{
     display: grid;
