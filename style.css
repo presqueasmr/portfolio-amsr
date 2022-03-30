@@ -198,22 +198,24 @@ footer button:hover, footer button:focus{
     font-family: 'Roboto Mono', monospace;
 }
 
-
+/* 
 .seemywork{
     text-align: center;
-    transform: rotate(-90deg);
     letter-spacing: 3px;
     font-size: 12px;
     position: relative;
     font-family: 'Roboto Mono', monospace;
+    margin-top: 80px;
 
-}
+} */
 
 .seemyworkimg{
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     left: 50%;
-}
+    filter:invert(100%);
+    width: 30px;
+ }
 
 main{
     background-color: #03041a;
