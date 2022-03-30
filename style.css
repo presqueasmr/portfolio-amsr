@@ -409,10 +409,14 @@ main h2 span{
 }
 
 .effect.wd{
-    margin-top: 75px;
+    margin-top: 0;
 }
 
 .effect.webdev{
+    margin-top: 0;
+}
+
+.effect.illu{
     margin-top: 0;
 }
 
