@@ -270,12 +270,12 @@ main{
 }
 
 .galerie .img6{
-    grid-area: 3 / 1 / 5 / 3;
+    grid-area: 3 / 1 / 6 / 3;
 
 }
 
 .galerie .img7{
-    grid-area: 3 / 3 / 4 / 6; 
+    grid-area: 3 / 3 / 5 / 6; 
 }
 
 
