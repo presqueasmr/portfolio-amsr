@@ -392,9 +392,10 @@ main h2 span{
 .effect.webdev, .effect.wd, .effect.illu{
     margin: 30px 809px 0 809px;
     grid-column: 1 / 2;
-    grid-row: 2 ;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     text-decoration: none;
     color: rgb(247, 247, 247);
