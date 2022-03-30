@@ -228,7 +228,7 @@ main{
 .galerie .s {
     width:100%;
     height:100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .galerie .m{
@@ -289,7 +289,7 @@ main{
 .galeriebis{
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 10%;
+    grid-template-rows: 5%;
     padding-top: 90px;
 }
 
