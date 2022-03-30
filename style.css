@@ -289,7 +289,8 @@ main{
 .galeriebis{
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 100%;
+    grid-template-rows: 10%;
+    padding-top: 90px;
 }
 
 
