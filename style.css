@@ -211,7 +211,7 @@ footer button:hover, footer button:focus{
 
 .seemyworkimg{
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
 }
 
