@@ -275,13 +275,13 @@ main{
 }
 
 .galerie .img7{
-    grid-area: 3 / 3 / 5 / 6; 
+    grid-area: 3 / 3 / 5 / 5; 
 }
 
 
 .galerie .img9{
     grid-column: 3 / 5;
-    grid-row: 4;
+    grid-row: 5;
     padding-left: 15px;
     margin-bottom: 30px;
 }
