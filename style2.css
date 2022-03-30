@@ -3,11 +3,25 @@
     padding: 0;
     background-color: #03041a;
     color: rgb(247, 247, 247);
-    font-family: 'Akira Expanded';
 }
+
+
+@font-face{
+    font-family: 'Akira Expanded';
+    src: url('fonts/Akira-Expanded-Demo.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Akira Outline';
+    src: url('fonts/akira-expanded-outline.ttf') format('truetype');
+}
+
 
 html{
     scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Akira Expanded';
 }
 
 nav{
@@ -16,7 +30,7 @@ nav{
 
 
 ul{
-    font-family: 'Akira Expanded';
+    
     color: rgb(247, 247, 247);
     font-size: 10px;
     padding: 50px;
@@ -25,6 +39,8 @@ ul{
     letter-spacing: 3px;
     font-size: 10px;
     display: flex;
+    
+
 }
 
 a{
